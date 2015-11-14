@@ -2,10 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="smoothslides/css/smoothslides.theme.css">
     <title>Sea & River House</title>
 </head>
   <body>
-      The views are spectacular!
+      <p>The views are spectacular!</p>
+      <div class="smoothslides" id="coveslides">
+        <img src="images/views-from-house/01.jpg" />
+        <img src="images/views-from-house/02.jpg" />
+        <img src="images/views-from-house/03.jpg" />
+        <img src="images/views-from-house/04.jpg" />
+        <img src="images/views-from-house/05.jpg" />
+        <img src="images/views-from-house/06.jpg" />
+        <img src="images/views-from-house/07.jpg" />
+        <img src="images/views-from-house/08.jpg" />
+        <img src="images/views-from-house/09.jpg" />
+        <img src="images/views-from-house/10.jpg" />
+        <img src="images/views-from-house/11.jpg" />
+      </div>
+
+
       <article>
         <div id="FK_Calendar_Widget53439ff4badb7" style="width:400px; margin:25px auto 0 auto; text-shadow:none;">
         <a href="http://www.flipkey.com/" mce_href="http://www.flipkey.com/"><img alt="FlipKey" src="http://www.flipkey.com/img/widgets/FlipKey-118x29.png" mce_src="http://www.flipkey.com/img/widgets/FlipKey-118x29.png" class="fk-calendar"></a>
@@ -63,6 +79,15 @@
             </div><!-- fk-badge-content -->
             </div><!-- fk-best-of-badge -->
       </div><!-- FK_Best_Of_Badge533b020ded110 -->
+
+<!-- smoothslides script -->
+  <script type="text/javascript" src="jquery.js"></script>
+      <script type="text/javascript" src="js/smoothslides-2.2.1.min.js"></script>
+      <script type="text/javascript">
+        $(window).load( function() {
+          $('#coveslides').smoothslides();
+        });
+      </script>
     </footer>
   </body>
 </html>
