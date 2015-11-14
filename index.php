@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="smoothslides/css/smoothslides.theme.css">
+    <link rel="stylesheet" href="_/css/style.css">
     <title>Sea & River House</title>
 </head>
   <body>
-      <p>The views are spectacular!</p>
+
+      <p>The views here are just spectacular!</p>
       <div class="smoothSlides" id="coveslides">
         <img src="images/views-from-house/01.jpg" />
         <img src="images/views-from-house/02.jpg" />
@@ -88,6 +90,8 @@
           $('#coveslides').smoothSlides();
         });
       </script>
+
+      <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
     </footer>
   </body>
 </html>
