@@ -43,5 +43,5 @@ Thumbs.db
 # Utilities #
 ######################
 Vagrantfile
-archive/
-images/
+/archive
+/images
