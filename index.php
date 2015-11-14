@@ -7,7 +7,7 @@
 </head>
   <body>
       <p>The views are spectacular!</p>
-      <div class="smoothslides" id="coveslides">
+      <div class="smoothSlides" id="coveslides">
         <img src="images/views-from-house/01.jpg" />
         <img src="images/views-from-house/02.jpg" />
         <img src="images/views-from-house/03.jpg" />
@@ -81,11 +81,11 @@
       </div><!-- FK_Best_Of_Badge533b020ded110 -->
 
 <!-- smoothslides script -->
-  <script type="text/javascript" src="jquery.js"></script>
-      <script type="text/javascript" src="js/smoothslides-2.2.1.min.js"></script>
+  <script type="text/javascript" src="smoothslides/js/jquery.js"></script>
+      <script type="text/javascript" src="smoothslides/js/smoothslides-2.2.1.min.js"></script>
       <script type="text/javascript">
         $(window).load( function() {
-          $('#coveslides').smoothslides();
+          $('#coveslides').smoothSlides();
         });
       </script>
     </footer>

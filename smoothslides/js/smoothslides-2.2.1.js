@@ -19,7 +19,7 @@ Smoothslides 2.2.0 by Kevin Thornbloom is licensed under a Creative Commons Attr
 				captions: 'true',
 				navigation: 'true',
 				pagination: 'true',
-				matchImageSize: 'false'
+				matchImageSize: 'true'
 			}
 
 			var options = $.extend(defaults, options),
