@@ -4,8 +4,9 @@
       <section id="branding">
         <a href="index.php"><img src="images/logo.svg" alt="Logo for Sea & River House"></a>
       </section><!-- branding -->
-          <section class="navbar">
-            <ul class="nav navbar-nav">
+          <section class="navbar navbar-defalt" role="navigation">
+            <div class="container">
+             <ul class="nav navbar-nav">
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">house<span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu" aria-labelleby="dropdownMenu">
@@ -22,6 +23,7 @@
 
                         
                       </ul><!-- dropdown-menu -->
+            
 
                     </li>
                     <li><a href="availability.php">availability</a></li>    
@@ -29,8 +31,10 @@
                     <li><a href="activities.php">activities</a></li>
                     <li><a href="comments.php">comments</a></li>
                     <li><a href="contact.php">contact us</a></li>
-            </ul><!-- nav -->
+             </ul><!-- nav -->
+            </div><!-- container -->
            </section><!-- navbar -->
           </header>
+
         </div><!-- column col-lg-12 -->
       </div><!-- content -->
