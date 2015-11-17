@@ -8,18 +8,17 @@
     <link href="_/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="_/css/custom.css" rel="stylesheet" media="screen">
   </head>
-  <body id="home">
+  <body id="activities">
   <section class="container">
-    <section class="content row">
-      
-       <section class="main col col-lg-8">
-         <?php  include "_/components/php/header.php"; ?>
-       </section><!--main col col-lg-8  -->
-       <section class="sidebar col col-lg-4">
-       </section><!-- sidebar col col-lg-4 -->
-    </section><!-- content row -->
-  </section><!-- container -->
-    
+      <div class="content row">
+        <section class="main col col-lg-8">
+          <?php  include "_/components/php/header.php"; ?>
+        </section>
+        <section class="sidebar col col-lg-4">
+        </section>
+
+      </div><!-- content row -->
+    </section><!-- container -->
 
     <script src="_/js/bootstrap.js"></script>
     <script src="_/js/customScript.js"></script>

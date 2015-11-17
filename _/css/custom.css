@@ -1,0 +1,11 @@
+body {
+  font-family: "Droid Sans", Consolas, Arial, Helvetica;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: Ubuntu, Calibri, Trebuchet, "Helvetica Neue";
+}
