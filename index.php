@@ -8,7 +8,7 @@
     <link href="_/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="_/css/custom.css" rel="stylesheet" media="screen">
   </head>
-  <body id="home">
+  <body id="home" data-spy="scroll" data-target="active">
   <section class="container">
     <section class="content row">
       
