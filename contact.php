@@ -9,8 +9,7 @@
     <link href="_/css/custom.css" rel="stylesheet" media="screen">
   </head>
   <body id="contact">
-  
-  <section class="container">
+   <section class="container">
       <div class="content row">
         <section class="main col col-lg-8">
           <?php  include "_/components/php/header.php"; ?>
