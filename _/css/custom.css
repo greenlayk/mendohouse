@@ -9,3 +9,6 @@ body h5,
 body h6 {
   font-family: Ubuntu, Calibri, Trebuchet, "Helvetica Neue";
 }
+.active {
+  background-color: #dee;
+}

@@ -13,7 +13,7 @@
                <ul class="nav navbar-nav">
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">house<span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu" aria-labelleby="dropdownMenu">
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
                     <li><a tabindex="-1" href="description.php">House & Environment</a></li>
                     <li class="divider"></li>
                     <li><a tabindex="-1" href="description.php">description</a></li>
