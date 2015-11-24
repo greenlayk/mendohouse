@@ -2,9 +2,10 @@
   <div class="col-lg-12">
     <header class="clearfix">
       <section class="branding">
+       <div class="row">   
         <div class="logo col-lg-4"><a href="index.php"><img class="header-img" src="images/logo.svg" alt="Logo for Sea and River House"></a>
         </div>
-        <div class="navbar" role="navigation">
+        <div class="navbar col-lg-8" role="navigation">
               <ul class="nav navbar-nav float-right">
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">house<span class="caret"></span></a>
@@ -26,9 +27,9 @@
                 <li><a href="activities.php">activities</a></li>
                 <li><a href="comments.php">comments</a></li>
                 <li><a href="contact.php">contact us</a></li>
-               </ul><!-- nav -->
-            
-        </div>
+               </ul><!-- nav -->  
+         </div><!-- navbar -->
+        </div><!-- row -->
       </section><!-- branding -->
       
       <section ">
