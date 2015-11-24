@@ -21,12 +21,9 @@
            </div><!-- smoothslides -->
     </div>
     <section class="content row">
-
-
-       <section class="main col col-lg-8">
-         
-
-       </section><!--main col col-lg-8  -->
+      <section class="main col col-lg-8">
+        <?php  include "_/components/php/footer.php"; ?><!-- footer-img -->  
+      </section><!--main col col-lg-8  -->
        <section class="sidebar col col-lg-4">
        </section><!-- sidebar col col-lg-4 -->
     </section><!-- content row -->
