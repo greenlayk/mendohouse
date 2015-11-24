@@ -10,5 +10,11 @@ body h6 {
   font-family: Ubuntu, Calibri, Trebuchet, "Helvetica Neue";
 }
 .active {
-  background-color: #dee;
+  background-color: #F3F9F5;
+  color: #fff;
+}
+
+.header-img {
+  max-width: 300px;
+  max-height: 100px;
 }

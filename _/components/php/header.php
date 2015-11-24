@@ -2,15 +2,10 @@
   <div class="col-lg-12">
     <header class="clearfix">
       <section class="branding">
-        <a href="index.php"><img src="images/logo.svg" alt="Logo for Sea and River House"></a>
-      </section><!-- branding -->
-      
-      <section class="navbar" role="navigation">
-            <div class="container">
-              <!-- <div class="navbar-header">
-                <a class="navbar-brand" href="#featured">Sea & River House</a>
-              </div> --><!-- navbar-header -->
-               <ul class="nav navbar-nav">
+        <div class="logo col-lg-4"><a href="index.php"><img class="header-img" src="images/logo.svg" alt="Logo for Sea and River House"></a>
+        </div>
+        <div class="navbar" role="navigation">
+              <ul class="nav navbar-nav float-right">
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">house<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
@@ -32,7 +27,12 @@
                 <li><a href="comments.php">comments</a></li>
                 <li><a href="contact.php">contact us</a></li>
                </ul><!-- nav -->
-            </div><!-- container -->
+            
+        </div>
+      </section><!-- branding -->
+      
+      <section ">
+            <div class="container"></div><!-- container -->
            </section><!-- navbar -->
           </header>
 

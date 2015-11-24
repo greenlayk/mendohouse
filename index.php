@@ -11,19 +11,20 @@
   </head>
   <body id="home" data-spy="scroll" data-target="active">
   <section class="container">
+    <div class="row logo-menu">
+      <?php  include "_/components/php/header.php"; ?><!-- header-img -->
+           <div class="smoothslides" id="myslideshow1">
+            <img src="images/views-from-house/carousel/from-the-house-01.jpg"/>
+            <img src="images/views-from-house/carousel/from-the-house-02.jpg"/>
+            <img src="images/views-from-house/carousel/10.jpg"/>
+            <img src="images/views-from-house/carousel/11.jpg"/>
+           </div><!-- smoothslides -->
+    </div>
     <section class="content row">
 
-      <span class="header-img"><?php  include "_/components/php/header.php"; ?></span><!-- header-img -->
-         <div class="smoothslides" id="myslideshow1">
-          <img src="images/views-from-house/carousel/from-the-house-01.jpg"/>
-          <img src="images/views-from-house/carousel/from-the-house-02.jpg"/>
-          <img src="images/views-from-house/carousel/10.jpg"/>
-          <img src="images/views-from-house/carousel/11.jpg"/>
-         </div><!-- smoothslides -->
 
        <section class="main col col-lg-8">
          
-
 
        </section><!--main col col-lg-8  -->
        <section class="sidebar col col-lg-4">
