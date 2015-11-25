@@ -19,15 +19,17 @@
             <img src="images/views-from-house/carousel/10.jpg"/>
             <img src="images/views-from-house/carousel/11.jpg"/>
            </div><!-- smoothslides -->
-    </div>
+    </div><!-- row -->
     <section class="content row">
       <section class="main col col-lg-8">
-        <?php  include "_/components/php/footer.php"; ?><!-- footer-img -->  
+         
       </section><!--main col col-lg-8  -->
        <section class="sidebar col col-lg-4">
        </section><!-- sidebar col col-lg-4 -->
     </section><!-- content row -->
   </section><!-- container -->
+  <?php  include "_/components/php/footer.php"; ?><!-- footer-img --> 
+
     
 
     <script src="_/js/bootstrap.js"></script>
