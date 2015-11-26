@@ -13,10 +13,12 @@
       <div class="content row">
       <?php  include "_/components/php/header.php"; ?>
         <section class="main col col-lg-8">
-          
+          <p class="contact">
+            We bought Sea & River House in 2007 for our future retirement home, and to have a special place to gather our kids from around the country every year – a place so spectacular they will clamor to come instead of being begged to visit their parents. And, what a success that has turned out to be. We do hope that others will find the uniqueness of the Mendocino coast works its wonders on them, too.
+          </p>
         </section>
         <section class="sidebar col col-lg-4">
-        
+          <img src="images/contact_vidcover.jpg">
         </section>
 
       </div><!-- content row -->
