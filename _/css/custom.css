@@ -20,5 +20,12 @@ body h6 {
 }
 
 .branding, .logo, .navbar{
-  margin: 1em 0;
+  margin-bottom: 1em 0;
+}
+
+#comments article {
+  margin: 2em 0;
+}
+cite {
+  font-weight: bold;
 }
