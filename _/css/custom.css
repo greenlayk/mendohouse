@@ -14,16 +14,22 @@ body h6 {
   color: #fff;
 }
 
+a {
+  font-size: 1.2em;
+  color: #00f;
+}
+
 .header-img {
   max-width: 300px;
   max-height: 100px;
+  margin: 1em 0;
 }
 
 .branding, .logo, .navbar{
   margin-bottom: 1em 0;
 }
 
-#comments article {
+article {
   margin: 2em 0;
 }
 cite {
