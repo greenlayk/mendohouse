@@ -23,7 +23,7 @@
         </section>
 
       </div><!-- content row -->
- </section><!-- container -->
+    </section><!-- container -->
     <?php  include "_/components/php/footer.php"; ?><!-- footer-img -->
 
     <script src="_/js/bootstrap.js"></script>

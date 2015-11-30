@@ -1,5 +1,6 @@
 body {
   font-family: "Droid Sans", Consolas, Arial, Helvetica;
+  padding-top: 4.375em;
 }
 body h1,
 body h2,
@@ -27,11 +28,16 @@ a {
 
 .branding, .logo, .navbar{
   margin-bottom: 1em 0;
-}
+  }
 
 article {
   margin: 2em 0;
 }
 cite {
   font-weight: bold;
+  color: #0d6d2d;
+}
+
+.dropdown-toggle, .house {
+  cursor: default;
 }

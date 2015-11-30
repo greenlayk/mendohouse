@@ -30,7 +30,7 @@
 
             <h4>Fishing</h4>
             <p>
-              Fishing There are many deep sea fish, including rockfish, lingcod, halibut, tuna and chinook salmon, plus crab to be caught off of charter boats out of Noyo Harbor in Fort Bragg. www.allaboardadventures.com. Near Point Arena you can book a full day adventure with professional sportfishers for a small (2-4) group and even hunt abalone if appropriate. Equipment and lunch is provided. www.fairchasesportfishing.com. Crab season is in January. Point Arena has a 330 ft. pier over a cove famous for fishing.
+              There are many deep sea fish, including rockfish, lingcod, halibut, tuna and chinook salmon, plus crab to be caught off of charter boats out of Noyo Harbor in Fort Bragg. www.allaboardadventures.com. Near Point Arena you can book a full day adventure with professional sportfishers for a small (2-4) group and even hunt abalone if appropriate. Equipment and lunch is provided. www.fairchasesportfishing.com. Crab season is in January. Point Arena has a 330 ft. pier over a cove famous for fishing.
             </p>
 
             <h4>Golf</h4>
