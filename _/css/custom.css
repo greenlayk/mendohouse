@@ -1,6 +1,5 @@
 body {
   font-family: "Droid Sans", Consolas, Arial, Helvetica;
-  padding-top: 4.375em;
 }
 body h1,
 body h2,
@@ -10,34 +9,49 @@ body h5,
 body h6 {
   font-family: Ubuntu, Calibri, Trebuchet, "Helvetica Neue";
 }
-.active {
+.active a {
   background-color: #F3F9F5;
   color: #fff;
 }
 
-a {
-  font-size: 1.2em;
-  color: #00f;
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+          transition-property: opacity;
 }
-
-.header-img {
-  max-width: 300px;
-  max-height: 100px;
-  margin: 1em 0;
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
 }
-
-.branding, .logo, .navbar{
-  margin-bottom: 1em 0;
-  }
-
-article {
-  margin: 2em 0;
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
 }
-cite {
-  font-weight: bold;
-  color: #0d6d2d;
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
-
-.dropdown-toggle, .house {
-  cursor: default;
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+}
+.item:nth-child(1) {
+  background: transparent /*#74C390*/;
+}
+.item:nth-child(2) {
+  background: transparent /*#51BCE8*/;
+}
+.item:nth-child(3) {
+  background: transparent /*#E46653*/;
 }
