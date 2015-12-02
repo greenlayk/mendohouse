@@ -35,7 +35,7 @@
       <div class="item"><img src="images/rockyShore-1.jpg" alt="Waves meet Rock"></div>
       <div class="item"><img src="images/rockyShore-2.jpg" alt="Cliffs to Shoreline"></div>
       <div class="item"><img src="images/sunset-1.jpg" alt="Coastal Sunset"></div>
-      <div class="item"><img src="images/LD-MB.jpg" alt="Lower Deck - Master Bedroom"></div>      
+      <div class="item"><img src="images/deckView.jpg" alt="Lower Deck - Master Bedroom"></div>      
     </div><!-- carousel-inner -->
 
     <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -70,7 +70,7 @@
     //   $(window).load( function() {
     //   $('#myslideshow1').smoothSlides();
     //   });
-    // </script>
-    //<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    </script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
 </html>

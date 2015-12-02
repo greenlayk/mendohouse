@@ -14,7 +14,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Sea & River House</a>
+          <a class="navbar-brand" href="index.php"></a>
         </div><!-- navbar-header -->
         <div class="collapse navbar-collapse" id="collapse">
               <ul class="nav navbar-nav navbar-right">
@@ -37,7 +37,7 @@
                 <li><a href="rates.php">rates</a></li>
                 <li><a href="activities.php">activities</a></li>
                 <li><a href="comments.php">comments</a></li>
-                <li><a href="contact.php">contact us</a></li>
+                <li class="active"><a href="contact.php">contact us</a></li>
                </ul><!-- nav -->
               </div><!-- navbar-collapse -->
             </div><!-- container -->  

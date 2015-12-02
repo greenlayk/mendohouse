@@ -1,6 +1,11 @@
 body {
   font-family: "Droid Sans", Consolas, Arial, Helvetica;
 }
+
+#contact,#availability, #rates, #activities, #comments {
+  padding-top: 10em;
+}
+
 body h1,
 body h2,
 body h3,
@@ -13,6 +18,65 @@ body h6 {
   background-color: #F3F9F5;
   color: #fff;
 }
+
+.dropdown-menu>li>a{
+  color: #eee;
+}
+
+/***************Header Navigation*************/
+  .container .navbar-brand {
+    color: white;
+    width: 12em;
+    background: url(../../images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: .9375em 0;
+    height: auto;
+  }
+
+  header .navbar-brand h1 {
+    color: white;
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: 400;
+    padding-left: 6.5625em;
+  }
+
+  header .navbar {
+    padding: 1.875em 0;
+  }
+
+  header .navbar-default {
+   background-color: rgba(0,0,0, 0.5);
+    border: none; 
+  }
+
+  header .navbar-default .navbar-nav a{
+    color: white;
+    padding: 5px 8px;
+  }
+
+  header .navbar-default .navbar-nav .active a:hover {
+    color: #e15d5f;
+    background: transparent;
+  }
+
+  header .navbar-default .navbar-nav a:hover {
+    color: #eec856;
+  }
+
+  header .navbar-default .navbar-nav .active a {
+    font-weight: bold;
+    color: #eec856;
+    background: transparent;
+    border-bottom: .25em solid #eec856;
+    text-shadow: none;
+  }
+/***************Footer Navigation*************/
+
+footer .container-fluid, .navbar-default {
+    background-color: transparent;
+    border: none;
+  }
 
 .carousel-fade .carousel-inner .item {
   -webkit-transition-property: opacity;
